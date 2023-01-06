@@ -1,0 +1,14 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--secondary-bcg-color);
+
+  &-container {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+  }
+}
+
+
