@@ -522,9 +522,20 @@ header {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  gap: 70px;
 }
 
+.address-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 9px;
+  width: 231px;
+  margin-right: 70px;
+}
 .address-list__link {
   display: inline-block;
   color: var(--white-color);
@@ -550,10 +561,10 @@ header {
 .address-list__item:hover, .address-list__item:focus {
   color: var(--accent-color);
 }
-.address-list__item:not(:last-child) {
-  margin-bottom: 9px;
-}
 
+.join {
+  margin-right: 93px;
+}
 .join__title {
   margin-top: 0;
   margin-bottom: 20px;
@@ -876,6 +887,7 @@ header {
   line-height: 1.15;
 }
 .form__label {
+  display: inline-block;
   margin-bottom: 4px;
   color: var(--secondary-text-color);
   font-weight: 400;

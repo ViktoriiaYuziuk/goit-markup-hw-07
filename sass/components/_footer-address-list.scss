@@ -1,7 +1,14 @@
 .address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 231px;
+
+  margin-right: 70px;
+
   &__link {
     display: inline-block;
-
+    
     color: var(--white-color);
 
     font-style: normal;
@@ -32,10 +39,6 @@
     &:hover,
     &:focus {
       color: var(--accent-color);
-    }
-
-    &:not(:last-child) {
-      margin-bottom: 9px;
     }
   }
 }

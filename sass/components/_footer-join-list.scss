@@ -1,14 +1,20 @@
-.join__title {
-  margin-top: 0;
-  margin-bottom: 20px;
+.join {
+  margin-right: 93px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
 
-  color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+  }
+
 }
+
 
 .join-list {
   &__item {
