@@ -4,8 +4,8 @@
   --accent-color: #2196f3;
   --secondary-accent-color: #188CE8;
   --white-color: #ffffff;
-  --secondary-bcg-color: #2f303a;
-  --portfolio-btn-bcg-color: #f5f4fa;
+  --footer-bcg-color: #2f303a;
+  --secondary-bcg-color: #f5f4fa;
   --logo-black-color: #000000;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --stroke-color: #ececec;
@@ -292,7 +292,7 @@ header {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  background: var(--portfolio-btn-bcg-color);
+  background: var(--secondary-bcg-color);
   border-radius: 4px;
 }
 .features-list__item {
@@ -369,7 +369,7 @@ header {
 }
 
 .team {
-  background-color: var(--portfolio-btn-bcg-color);
+  background-color: var(--secondary-bcg-color);
 }
 .team__title {
   text-align: center;
@@ -513,7 +513,7 @@ header {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--secondary-bcg-color);
+  background-color: var(--footer-bcg-color);
 }
 .footer-container {
   display: -webkit-box;
@@ -687,7 +687,7 @@ header {
 .filters__button {
   text-align: center;
   padding: 6px 22px;
-  background-color: var(--portfolio-btn-bcg-color);
+  background-color: var(--secondary-bcg-color);
   color: var(--primary-text-color);
   font-family: inherit;
   font-weight: 500;
